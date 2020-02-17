@@ -458,8 +458,8 @@ for (p in 1:n_pixel)
         temp <- v_nospark[int,p]
       else
         temp <- cbind(temp, v_nospark[int[1:min_length[p]],p])
-        # WARNING: la seganalazione è qui
-        #          ci dice che gli intervalli più lunghi del primo vengono tagliati
+        # WARNING: la seganalazione Ã¨ qui
+        #          ci dice che gli intervalli piÃ¹ lunghi del primo vengono tagliati
         #          --> usiamo sempre lo stesso numero di dati !!
     }
   }
